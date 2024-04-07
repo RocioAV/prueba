@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<%-include ('./partials/head.ejs') %>
+   <link rel="stylesheet" href="css/styles-Register.css">
+
+   <body class="body-register">
+      <%-include ('./partials/header.ejs') %>
+
+         <div class="Reg">
+            <form action="/register" method="POST" enctype="multipart/form-data">
+               <h1 id="tittle">CREA TU CUENTA</h1>
+               <label>Nombre</label>
+               <input type="text" name="name" value="<%= locals.old && old.name ? old.name : ''%>">
+               <% if(locals.errors && locals.errors.name){ %>
+                  <div class="text-danger">
+                      <p class="error"><%= errors.name.msg %></p>
+                  </div>
+              <% } %>
+
+
+               <label>Apellido</label>
+               <input type="text" name="lastName" value="<%= locals.old && old.lastName ? old.lastName : ''%>">
+               <% if(locals.errors && locals.errors.lastName){ %>
+                  <div class="text-danger">
+                      <p class="error"><%= errors.lastName.msg %></p>
+                  </div>
+              <% } %>
+
+               <label>E-mail</label>
+               <input type="email" name="email" value="<%= locals.old && old.email ? old.email : ''%>">
+               <% if(locals.errors && locals.errors.email){ %>
+                  <div class="text-danger">
+                      <p class="error"><%= errors.email.msg %></p>
+                  </div>
+              <% } %>
+
+               <label>Contraseña</label>
+               <input type="password" name="password">
+               <% if(locals.errors && locals.errors.password){ %>
+                  <div class="text-danger">
+                      <p class="error"><%= errors.password.msg %></p>
+                  </div>
+              <% } %>
+
+               <h6>Usa entre 8 y 16 Caracteres</h6>
+
+               <label>Confirmar Contraseña</label>
+
+               <input type="password" name="password2">
+
+               <h6>debe coincidir con la Contraseña</h6>
+               <% if(locals.errors && locals.errors.password2){ %>
+                  <div class="text-danger">
+                      <p class="error"><%= errors.password2.msg %></p>
+                  </div>
+              <% } %>
+
+
+               <label for="genre">Sexo</label>
+               <select name="genre">
+                  <option value="Mujer">Femenino</option>
+                  <option value="Hombre">Masculino</option>
+                  <option value="-">Prefiero no decir</option>
+               </select>
+
+               <label for="image">Agregar imagen</label>
+               <input type="file" name="image"  accept=".jpg, .png, .jpeg" class="image">
+
+               <button type="submit" class="buy-now-button">REGISTRARSE </button>
+
+            </form>
+         </div>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+   </body>
+
+   <%-include ('./partials/footer.ejs') %>
+
+</html>

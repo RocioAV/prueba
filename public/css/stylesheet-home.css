@@ -1,0 +1,638 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #ebebeb; */
+}
+
+/* -------------------Primer header------------------ */
+header{
+    display: flex;
+    align-items: center;
+    background-color: #222831;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh
+}
+#primer-header .logo img {
+    width: 100px;
+    /* border:solid red; */
+    /* position:relative;
+    top:0;
+    left:0; */
+    padding-top: 10px;
+}
+
+header .botones{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 10vh;
+    /* border:solid red; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+header .register  a {
+    font-size: 50%;
+    text-decoration: none;
+    color: #06334b;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
+header .login  a {
+    font-size: 50%;
+    text-decoration: none;
+    color: #06334b;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+}
+header .register,.login {
+    width: 50%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    background-color: #2199ea;
+    border-radius: 10px;
+    /* border:solid red; */
+}
+header .botones i{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.usuario{
+    /* width:40%;
+    font-size: 30px; */
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2199ea;
+}
+.usuario i {
+    font-size: 20px;
+    color: #222831;
+}
+/* .usuario .fa-solid {
+    display: none;
+} */
+
+/* ------------------- Primer Main ------------------ */
+
+.sec-main {
+    background-image: url("../images/ARGENTINA-1024x551.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    border: 0.5px solid;
+    z-index: 10;
+    height: 200px;
+}
+
+main .sec-main .contenedor-boton{ /* un contenedor que maneja el boton de inputs */
+    display: flex;
+    justify-content: center;
+    /* border: 1px red solid; */
+    /* margin-top: 10px; */
+}
+
+main #contenedor-de-inputs{
+    display: flex;
+    justify-content: center;
+    /* border: 1px red solid; */
+}
+
+main .boton-de-inputs{ /* modifica el boton que contiene los imputs */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+main .campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border: none; /* Quitar los bordes en todos los lados */
+    border-right: 1px solid; 
+    margin-right: 5px; /* Espacio entre las barras de búsqueda y el icono */
+    padding: 8px;
+    font-size: 10px;
+}
+
+.fa-magnifying-glass{
+    width: 5%;
+    /* margin-right: 5px; */
+    padding: 8px 0px 8px 0px;
+    
+}
+
+/* ------------------- Segundo Header ------------------ */
+
+#segundo-header .logo img {
+    display: none;
+    /* border:solid red; */
+    /* position:relative;
+    top:0;
+    left:0; */
+}
+
+/* #segundo-header .boton-de-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* background-color: white; */
+    /* border-radius: 15px; */
+    /* width: 75%; */
+    /* height: 30px; */
+    /* border: 1px solid red; */
+/* } */ */
+
+#segundo-header .campo{
+    text-align: center;
+    width: 22%;
+    border: none; /* Quitar los bordes en todos los lados */
+    border-right: 1px solid; 
+    font-size: 10px;
+    /* border: 1px solid red; */
+}
+
+#segundo-header #boton-acceder-cuenta{
+    display: flex;
+    justify-content: space-evenly;
+    width: 14%;
+    height: 34px;
+    padding: 5px 2px 5px 2px;
+    border-radius: 30px;
+}
+
+#segundo-header .fa-user{
+    font-size: 18px;
+}
+
+.fa-bars{
+   font-size: 18px;
+}
+.boton-de-inputs{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 15%;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+.barra{
+    display: none;
+}
+
+/* ------------------- Segundo Main ------------------ */
+.sec-carr{
+    background-color: #222831;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec-carr h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.carruseluwu{
+    width: 90%;
+    height: 70%;
+}
+.descrip{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(34, 40, 49,0.5)
+    
+}
+
+/* ------------------- Tercer Main ------------------ */
+
+#tercer-main{
+    background-color: #222831;
+}
+
+#tercer-main .hospedajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 20px 5px 20px;
+    /* border: 1px solid red; */
+}
+
+#tercer-main .articuloCaja{
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border: 0.5px solid black;
+    /* border: 1px solid red; */
+}
+
+/* #tercer-main .articuloCaja .contenedor-imagen{
+    display: flex;
+    justify-content: center;
+} */
+
+#tercer-main .articuloCaja img{
+    width: 100%;
+    height: 160px;
+    /* border: 1px solid red; */
+}
+
+#tercer-main .dias-de-alojamiento{
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid red; */
+}
+
+#tercer-main .contenedor-nombre {
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex; /* Agregamos flexbox */
+    align-items: center; /* Centramos verticalmente */
+    justify-content: center;
+}
+
+#tercer-main .contenedor-nombre .nombre {
+    font-weight: bold;
+    font-size: 24px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 0; /* Agregamos margen cero para asegurar el centrado */
+}
+
+#tercer-main #incluye{
+    font-weight:800;
+    font-size: 20px;
+}
+
+#tercer-main .descripcion{
+    font-weight:600;
+    font-size: 16px;
+}
+
+#primeros-cuatro-productos{
+    display: none;
+}
+/* media auxiliar para movil */
+
+@media (min-width: 768px){
+    /* ---------------------Primer header-------------------- */
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #222831;
+        height: 60px;
+        z-index: 30;
+        position: fixed;
+    }
+    .barra{
+        display: inline-flex;
+        align-items: baseline;
+        justify-content: flex-start;
+        height: 29px;
+        width: 50%;
+        
+        
+    }
+    .barra input{
+        border-radius: 8px;
+        width: 100px;
+    }
+    .fa-magnifying-glass{
+        color: aliceblue;
+        padding-left: 10px;
+    }
+    #primer-header .logo img {
+        width:200px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    header .botones{
+        display: flex;
+        flex-direction: row;
+        /* border:solid red; */
+        align-items: center;
+        justify-content: right;
+        
+    }
+    header .botones .register{
+        width: 30%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        background-color: #2199ea;
+        border-radius: 10px;
+        /* border:solid red; */
+    }
+    /* .botones, .user{
+        flex-grow: 1;
+    } */
+    header .botones .login {
+        width: 30%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        background-color: #2199ea;
+        border-radius: 10px;
+        margin-inline: 10px
+        
+    }
+    header .user{
+        display: flex;
+        align-items: center;
+        
+    }
+     header .fa-user{
+        width:40%;
+        font-size: 30px;
+        flex-direction: row-reverse;
+        padding-right: 30px;
+    }
+    header .register  a {
+        font-size: 70%;
+        text-decoration: none;
+        color: #06334b;
+        font-weight: bold;
+        text-align: center;
+        padding-left: 10px;
+    }
+    header .login  a {
+        font-size: 70%;
+        text-decoration: none;
+        color: #06334b;
+        font-weight: bold;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+      /* ------------------- Primer Main ------------------ */
+    .sec-main{
+        background-image: url("../images/ARGENTINA-1024x551.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        /* border: 1px solid red; */
+        height: 410px;
+    }
+
+     main .boton-de-inputs{ /* modifica el boton que contiene los imputs */
+        margin-top: 280px;
+        width: 90%;
+        height: 50px;
+        /* border: 1px solid red; */
+    }
+
+    main .campo{
+        width: 22%;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        /* border: 1px solid red; */
+    }
+
+    
+    main .boton-de-inputs .fa-magnifying-glass{
+        width: 8%;
+        font-size: 20px;
+        /* margin-right: 5px; */
+        padding: 8px 0px 4px 0px;
+        color: black;
+        
+    }
+
+   
+
+    /* -------------------------2do main------------------------- */
+
+    .sec-carr{
+        background-color:#222831;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-carr h2{
+        text-align: center;
+        font-size: 35px;
+        padding: 20px;
+    }
+    .carruseluwu{
+        width:100vw;
+        height: 100%;
+    }
+
+    .descrip{
+        position:relative;
+        bottom:100px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(34, 40, 49,0.5)
+        
+    }
+
+    /* ------------------- Tercer Main ------------------ */
+    #tercer-main .hospedajes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0px 20px 5px 20px;
+        /* border: 1px solid red; */
+    }
+
+    #tercer-main .articuloCaja{
+        display: inline-block;
+        width: 40%;
+        background-color: white;
+        padding: 15px;
+        margin: 10px;
+        /* border: 1px solid red; */
+    }
+    .fa-bars{
+    font-size: 24px;
+    }
+
+    #primeros-cuatro-productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1028px){
+
+    /* --------------------2domain------------------- */
+    .sec-carr{
+        height: auto;
+    }
+    .carruseluwu{
+        width :100vw;
+        height: 90%;
+    }
+    .carruseluwu img{
+        height: 630px;
+    }
+    /* .barra{
+        padding-left:250px ;
+    } */
+
+
+    .barra input{
+        border-radius: 8px;
+        width: 125px;
+    }
+    /* MAIN */
+    .sec-main{
+        background-image: url("../images/ARGENTINA-1024x551.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        height: 555px;
+        /* border: 1px solid red; */
+
+    }
+    
+     main .boton-de-inputs{
+        margin-top: 380px;
+        width: 90%;
+        height: 50px;
+        padding-left: 0%;
+        /* border: 1px solid red; */
+    }
+
+    main .campo{
+        width: 22%;
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+        /* border: 1px solid red; */
+    }
+
+    /* ------------------- Segundo Header ------------------ */
+   
+
+    #primer-header .boton-de-inputs .fa-magnifying-glass{
+        width: 8%;
+        font-size: 20px;
+        /* margin-right: 5px; */
+        padding: 0px 0px 2px 0px;
+        
+    }
+
+    #segundo-header #boton-acceder-cuenta{
+        width: 12%;
+        height: 55px;
+        }
+    
+    #segundo-header .fa-user{
+        font-size: 40px;
+    }
+
+    .fa-bars{
+    font-size: 40px;
+    }
+        
+    /* ------------------- Tercer Main ------------------ */
+    #tercer-main .articuloCaja{
+        display: inline-block;
+        width: 22%;
+        background-color: white;
+        padding: 15px;
+        margin: 10px;
+        /* border: 1px solid red; */
+    }
+   
+}
+
+@media (min-width: 1268px){
+
+    /* ------------------- Primer Main ------------------ */
+        main .sec-main{
+            background-image: url("../images/ARGENTINA-1024x551.jpg");
+            background-position: center top;
+            background-repeat: no-repeat;
+            /* background-size: 100%; */
+            position: relative;
+            height: 680px;
+            /* border: 1px solid red; */
+        }
+
+        main .boton-de-inputs{
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            margin-top: 500px;
+            width: 75%;
+            height: 65px;
+            padding-left: 0%;
+            /* border: 1px solid red; */
+        }
+    
+        main .campo{
+            width: 22%;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+            /* border: 1px solid red; */
+        }
+    
+        main .boton-de-inputs .fa-magnifying-glass{
+            width: 8%;
+            font-size: 30px;
+        }
+
+         /* ------------------- Segundo Header ------------------ */
+    
+        #segundo-header .campo{
+            width: 22%;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            /* border: 1px solid red; */
+        }
+
+        #segundo-header #boton-acceder-cuenta{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 120px;
+            /* height: 55px; */
+            /* padding: 5px 2px 5px 2px; */
+            border-radius: 30px;
+            }
+}

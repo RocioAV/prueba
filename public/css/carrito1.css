@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #222831;
+}
+
+/* HEADER */
+
+header {
+    background-color: #222831;
+}
+header .header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header .header .button-back {
+    background-color: #2199ea;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .header .button-back a i {
+    color: #37414f;
+}
+header .header .logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+header .header .logo a img{
+    width: 40vw;
+}
+header .header .usuario {
+    padding: 5px;
+    display: flex;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+header .header .usuario i {
+    font-size: 40px;
+    color: #2199ea;
+}
+header .header .usuario .fa-solid {
+    display: none;
+}
+header .header section button {
+    display: none;
+}
+header nav {
+    display: none;
+}
+
+ main{
+    display: block;
+    width: 90%;
+    margin: auto;
+ }
+/* barra de progreso superior 
+
+.barra-progreso {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 15px 0px;
+}
+.barra-progreso .barra {
+    position: absolute;
+    height: 1px;
+    width: 65%;
+    border: #2199ea 1px solid;
+    bottom: 35px;
+    z-index: 1;
+}
+.barra-progreso .uno {
+    border: #222831 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 38px;
+    position: relative;
+    z-index: 2;
+    background-color: #c9ccd1;
+
+}
+.barra-progreso .dos {
+    border: #222831 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 38px;
+    position: relative;
+    z-index: 2;
+    background-color: #c9ccd1;
+}
+.barra-progreso .tres {
+    border: #222831 1px solid;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 38px;
+    position: relative;
+    z-index: 2;
+    background-color: #2199ea;
+}
+*/
+ .conteiner{
+    display: block;
+}
+
+.conteiner-img img{
+    margin: auto;
+    margin-top: 70px;
+    width: 90vw;
+}
+
+    
+
+ .dates{
+    background-color:#2199ea;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+    
+ .dates h4{
+    
+    margin: auto;
+    font-size: 20px;
+    
+ }
+ .dates p {
+    
+    margin: auto;
+    justify-content: center;
+    font-size: 20px;
+ }
+ .dates i{
+    color: gold;
+    padding-right: 10px;
+    font-size: 20px;
+ }
+ .formularios{
+    width: 70%;
+    margin: auto;
+    
+    font-size: 20px;
+ }
+ .title{
+    color: aliceblue;
+    padding: 20px 15px 0;
+ }
+ .create-form{
+     padding: 10px 15px;
+     margin-bottom: 20px;
+ }
+ .control-formulario{
+    color: aliceblue;
+    margin-bottom: 10px;
+
+ }
+.control-formulario label{
+    margin-bottom: 2px;
+    font-style: italic;
+    display: flex;
+}
+.control{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.buttom{
+    background-color: #2199ea;
+    color: #dee2e9;
+    border: none;
+    font-size: 20px;
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+ .conteiner{
+   
+    
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+ }
+ .conteiner title{
+    background-color: #2199ea;
+ }
+
+ .valoracion{
+    font-weight: bold;
+
+}
+
+@media (min-width:768px){
+    /*header*/
+    header .header .button-back {
+        display: none;
+    }
+    header .header .logo {
+        margin-left: 30px;
+        max-width:  20px;
+    }
+    header .header .logo a img {
+        max-width: 270px;
+        padding: 15px 0px;
+    }
+    header .header .usuario {
+        margin-right: 40px;
+        background-color: #2199ea;
+    }
+    header .header .usuario i {
+        color: #222831;
+        font-size: 25px;
+    }
+    header .header .usuario .fa-solid {
+        display: block;
+    }
+    header .header section {
+        margin: auto;
+        width: 250px;
+    }
+    header .header section button {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #222831;
+        border: #222831 solid 1px;
+    }
+    header .header section button input {
+        width: 90%;
+        padding: 3px;
+        border-radius: 15px;
+    }
+    header .header section button i {
+        margin: auto;
+        color: #2199ea;
+
+    }
+    
+    .dates{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        background-color: #2199ea;
+        padding: 10px 10px;
+        border-radius: 8px;  
+    }
+        
+    .dates h4{
+        
+        margin: auto;
+        font-size: 24px;
+}
+    .dates i{
+        color: gold;
+        padding-right: 10px;
+        font-size: 24px;
+     }
+
+}
+@media (min-width: 1024px) {
+    /* Header */
+
+    header .header {
+        padding-top: 10px;
+    }
+    header .header .logo a img {
+        max-width: 200px;
+    }
+    header .header section {
+        width: 450px;
+    }
+}
+    
+ 
+ 

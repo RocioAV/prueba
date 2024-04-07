@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #222831;
+}
+
+/* HEADER */
+
+header {
+    background-color: #222831;
+}
+header .header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header .header .button-back {
+    background-color: #222831;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+header .header .button-back a i {
+    color: #2199ea;
+}
+header .header .logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+header .header .logo a img{
+    width: 40vw;
+}
+header .header .usuario {
+    padding: 5px;
+    display: flex;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+header .header .usuario i {
+    font-size: 40px;
+    color: #2199ea;
+}
+header .header .usuario .fa-solid {
+    display: none;
+}
+header .header section button {
+    display: none;
+}
+header nav {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    background-color: #222831;
+    width: 100vw;
+    padding-top: 3%; 
+    /* puse este padding para que se vea mejor ya que inclui el partial de header */
+}
+main article {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+main article .carousel {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 20px;
+}
+main article .carousel .carousel-indicators {
+    display: none;
+}
+main article .carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%;
+}
+main article .carousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    object-fit:cover;
+
+}
+main article .descripcion{
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #37414f;
+    box-shadow: 10px 10px 20px #1a1e24, -10px -10px 20px #2d353f;
+    color: white;
+}
+main article .descripcion h1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+main article .descripcion p {
+    font-size: 16px;
+    margin: 0px 5px 5px;
+    text-align: left;
+}
+main section {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #37414f;
+    box-shadow: 10px 10px 20px #1a1e24, -10px -10px 20px #2d353f;
+    color: white;
+}
+main section .cotizar {
+    margin: 15px 5px 10px;
+}
+main section .inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+main section .inputs .check {
+    height: 60px;
+    border: #222831 1px solid;
+}
+
+main section .check-in {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+main section .check-out {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+main section .huespedes {
+    width: 100%;
+    height: 60px;
+    border: #222831 1px solid;
+}
+.buttom {
+    background-color: #2199ea;
+    color: #dee2e9;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222831;
+    display: flex;
+    width: 100vw;
+    background-color: #cfd3d8;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+footer .logo-footer a img{
+    display: none;
+    max-width: 100px;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+footer section div {
+    margin-bottom: 20px;
+    width: 90%;
+    border-top: 1px solid #b8b5b5;
+    padding-top: 10px;
+}
+footer section div ul {
+    display: flex;
+    flex-direction: column;
+}
+footer section div ul a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+footer section div a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+footer section div p {
+    font-size: 15px ;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer section .redes {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    padding-top: 20px;
+}
+footer section .redes a i {
+    font-size: 30px;
+}
+
+@media (min-width: 728px) {
+
+    /* HEADER */
+
+    header .header .button-back {
+        display: none;
+    }
+    header .header .logo {
+        margin-left: 30px;
+        max-width:  20px;
+    }
+    header .header .logo a img {
+        max-width: 230px;
+    }
+    header .header .usuario {
+        margin-right: 40px;
+        background-color: #2199ea;
+    }
+    header .header .usuario i {
+        color: #222831;
+        font-size: 25px;
+    }
+    header .header .usuario .fa-solid {
+        display: block;
+    }
+    header .header section {
+        margin: auto;
+        width: 250px;
+    }
+    header .header section button {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #222831;
+        border: #222831 solid 1px;
+    }
+    header .header section button input {
+        width: 90%;
+        padding: 3px;
+        border-radius: 15px;
+    }
+    header .header section button i {
+        margin: auto;
+        color: #2199ea;
+
+    }
+    header nav {
+        display: block;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px 10px;
+        list-style-type: none;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: #2199ea;
+    }
+
+    /* MAIN */
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: flex-start;
+        width: 90vw;
+        margin: auto;
+    }
+    main article {
+        width: 70%;  
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    main article .carousel {
+        height: 360px;
+    }
+    main article .carousel .carousel-inner .carousel-item img {
+        height: 370px;
+    }
+    main article .carousel .carousel-indicators {
+        display: flex;
+        margin: 0;
+    }
+    main article .descripcion {
+        width: 100%;
+    }
+    main section {
+        width: 30%;
+        margin-top: 40px;
+        padding: 0px 15px 0px;
+    }
+    main section .inputs {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    main section .inputs .check {
+        border-radius: 5px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    main section .inputs .check-in {
+        width: 100%;
+    }
+    main section .inputs .check-out {
+        width: 100%;
+    }
+
+    main section .huespedes {
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    footer section {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90vw;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1160px) {
+
+    /* Header */
+
+    header .header {
+        padding-top: 10px;
+    }
+    header .header .logo a img {
+        max-width: 200px;
+    }
+    header .header section {
+        width: 450px;
+    }
+
+    /* Main */
+
+    main article .carousel {
+        height: 500px;
+    }
+    main article .carousel .carousel-inner .carousel-item img {
+        max-width: 100%;
+        height: 470px;
+    }
+    main article .descripcion {
+        width: 100%;
+    }
+    main section .inputs {
+        flex-direction: row;
+        gap: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    main section .check-in {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    main section .check-out {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}

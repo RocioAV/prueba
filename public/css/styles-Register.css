@@ -1,0 +1,76 @@
+body{
+background-image: url(https://i.pinimg.com/originals/89/44/aa/8944aae38e7675be7b918a8e0ac2a5db.gif);
+background-size: cover;
+
+height: 50dvh;
+padding:0;
+margin:0;
+}
+
+
+
+#tittle { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "roboto", "Helvetica Neue",;
+    top: 100px;
+    color: rgb(0, 0, 0)
+}
+
+form{
+    background-color: rgba(174, 189, 189, 0.664);
+    width: 33rem;
+    justify-content: center;
+
+
+    padding: 12px;
+    
+
+    border-radius: 12px;
+    display: flex;
+    
+    font-size: x-large;
+    flex-direction: column;
+    font-weight: 900;
+
+    align-items: center;
+    
+}
+input[type="text"]{
+
+    border-radius: 12px;
+    margin: 7px;
+    padding: 5px;
+
+}
+input[type="password"]{
+
+    border-radius: 12px;
+    margin: 7px;
+    padding: 5px;
+
+}
+
+.Reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    padding-top: 5%;
+    
+}
+.image{
+    width: 100%;
+}
+.error{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+top: 30%;
+
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b4df2da41a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet-home.css">
+    <link rel="stylesheet" href="/css/carrito1.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>carrito</title>
+</head>
+<body>
+    
+    <header>
+        <%- include('./partials/header.ejs') %>
+        <!--
+        <div class="header">
+            <div class="button-back">
+                <a href="/">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a  href="/"><img src="/img/TuristAr-logo2.png" alt="logo" ></a>
+            </div>
+            <section class="barra-busqueda">
+                <button class="boton-de-inputs">
+                <input class="campo" type="text" name="destino" placeholder="¿A dónde vas?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </section>
+            <div class="usuario">
+                <i class="fas fa-bars"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    -->
+    </header>
+    <main>
+        <!-- <div class="barra-progreso">
+            <div class="uno">1</div>
+            <div class="dos">2</div>
+            <div class="tres">3</div>
+            <div class="barra"></div>
+        </div> -->
+        <div class="conteiner">
+                <div class="conteiner-img">
+                    <img src="/images/products/<%= producto.image %>"alt="<%= producto.name %>" >
+                </div>
+                <div class="dates">
+                    <h4>Datos de tu reserva</h2>
+                    <p>Provincia/departamento o ciudad</p>
+                        
+                    <p class="valoracion"><i class="fa-solid fa-star"></i>Calificacion del cliente</p>
+                    <p>Fecha de entrada-Fecha de salida</p>
+                </div>
+        </div> 
+       
+        
+              
+        
+        <div class="formularios">
+            <h3 class="title">Datos personales</h3>
+            <form action="#" method="post" class="create-form">
+                <div class="control-formulario">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Escriba su nombre" required class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Escriba su apellido" required class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>D.N.I</label>
+                    <input type="text" placeholder="Numero de documuento" required class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" required class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Correo electronico</label>
+                    <input type="email" placeholder="lorem@gmail.com" required class="control">
+                </div>
+                <div class="control-formulario">
+                    <label>Pais</label>
+                    <select name="" id="" class="control">
+                    <option value="USA">Estados Unidos</option>
+                    <option value="Canada">Canadá</option>
+                    <option value="Mexico">México</option>
+                    <option value="Brazil">Brasil</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Peru">Perú</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Cuba">Cuba</option>
+                    </select>
+                </div>
+                <div class="control-formulario">
+                    <label>Nacionalidad</label>
+                    <input type="text" placeholder="nacionalidad" required class="control">
+                </div>
+                <a class="buttom" href="/carrito/pago/<%= producto.id %>" target="_blank"> Siguiente</a>
+                
+
+            </form>
+        </div>
+    </main>
+    <%- include('./partials/footer.ejs')%>
+</body>
+</html>

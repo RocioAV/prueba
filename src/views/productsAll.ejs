@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include ('./partials/head.ejs') %>
+
+    <body>
+        <%- include('./partials/header.ejs') %>
+            <main class="mainprod">
+                <h2>¡Todos los hospedajes!</h2>
+                <section class="cards">
+                    <% products.forEach((hosp) => { %>
+                        <div class="card" style="width: 18rem;">
+                            <img src="/images/products/<%= hosp.image[0] %>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= hosp.name %></h5>
+                                <p class="card-text">
+                                     <%= hosp.prov %> , <%= hosp.localidad %>
+                                </p>
+                                <a href="/products/detail/<%= hosp.id%>" class="btn btn-primary">Ver más</a>
+                                
+                            </div>
+                        </div>
+                    <%})%>
+                    
+                   
+                </section>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                    crossorigin="anonymous"></script>
+            </main>
+            <%- include('./partials/footer.ejs')%>
+    </body>
+
+</html>

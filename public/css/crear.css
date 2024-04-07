@@ -1,0 +1,119 @@
+@import url('./AllProducts.css');
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    
+    
+}
+.mainform{
+    background-image: url('../images/fondo-formu.jpg');
+}
+.form{
+    /* background-color: #222831; */
+    background-image: url('../images/fondo-formu.jpg');
+    padding-bottom: 40px;
+    
+
+}
+.formu{
+    background-color: #cfd3d8;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+    top:5%;
+    border-radius: 20px;
+
+}
+.input{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.formu label{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.form-input{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+}
+
+span{
+    padding-right: 25px;
+}
+.buy-now-button{
+    width:50%;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #2199ea;
+    margin: 20px 25%;
+}
+.check{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .formu label{
+        padding-left: 10%;
+        padding-top: 30px;
+       
+    }
+    h2{
+        padding-top: 60px;
+    }
+    .formu{
+        width: 50vw;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        left: 25%;
+        top:5%;
+        border-radius: 20px;
+    }
+    .check{
+        padding: 0px 15px;
+    }
+
+}
+@media (min-width: 1024px){
+    h2{
+        padding-top: 70px;
+    }
+
+
+    .formu{
+        background-color: #cfd3d8;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        left: 27%;
+        top:5%;
+        border-radius: 20px;
+    
+    }
+    .form-input{
+        width: 400px;
+    }
+    .formu label{
+        position:relative;
+        left: 4%;
+    }
+    .buy-now-button{
+        margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    .check{
+        padding: 0px 15px;
+    }
+}

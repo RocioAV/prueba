@@ -1,0 +1,48 @@
+body {
+background-image: url(https://i.pinimg.com/originals/09/d7/05/09d70593eccfbf45d3375caad9098613.gif);
+
+
+background-size: cover;
+
+
+height: 50dvh;
+padding:0;
+margin:0;
+
+}
+
+
+form{
+    background-color: rgba(174, 189, 189, 0.664);
+    
+        display: flex;
+        width: 25rem;
+        
+        border-radius: 15px;
+    
+    
+        font-size: large;
+        font-weight: 900;
+        flex-direction: column;
+    
+
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+
+    }
+
+.Conf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 43%;
+}
+footer{
+    position: relative;
+top: 110%;
+
+}
+

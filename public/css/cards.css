@@ -1,0 +1,22 @@
+.hospedajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.articuloCaja{
+    width: 33 vw;
+    padding-bottom: 20px;
+    height: auto;
+    transition: width 0.3s, height 0.3s;
+}
+
+.oculto{
+    display: none;
+ 
+}
+.articuloCaja:hover .oculto{
+    display: block;
+}
+.flex{
+    flex-wrap: wrap;
+}

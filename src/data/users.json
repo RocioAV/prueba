@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Rocio",
+        "lastName": "Velazquez",
+        "email": "roo@gmail.com",
+        "password": "perrosygatos123",
+        "password2": "perrosygatos123",
+        "genre": "Mujer",
+        "image": "rocio.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "rocio",
+        "lastName": "velazquez",
+        "email": "tuturrita@gmail.com",
+        "password": "$2a$10$yD1R.seZlH/QZC.5y1eFYuJKw6/J4gLrapB4h1iDc/Y4DfcJDGXOm",
+        "password2": "421511",
+        "genre": "Mujer",
+        "image": "women-default.png"
+    },
+    {
+        "id": 3,
+        "name": "Marcos",
+        "lastName": "Rojo",
+        "email": "marcos@gmail.com",
+        "password": "$2a$10$3aAQ/wr7VjpSWqxHNcemc.E8XqmI63GZ.aYRx6p416coT9koBbHaS",
+        "password2": "holaquehace",
+        "genre": "Hombre",
+        "image": "man-default.png",
+        "role":"administrador",
+        "image": "rocio.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "Roberto",
+        "lastName":"Mamani",
+        "email": "roober@gmail.com",
+        "password": "perrosygatos123",
+        "password2": "perrosygatos123",
+        "role":"client",
+        "image": "roberto.jpg"
+    }
+]

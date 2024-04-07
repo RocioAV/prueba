@@ -1,0 +1,87 @@
+
+
+@import url('./styles-Valid.css');
+
+body{
+    background-image: url('https://kottonmagazine.com/wp-content/uploads/2016/06/TIerra-del-Fuego-Cover.gif');
+    
+    background-size: cover;
+
+    padding:0;
+    margin:0;
+}
+
+
+#tittle { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "roboto", "Helvetica Neue",;
+    top: 100px;
+    color: rgb(255, 255, 255)
+}
+
+    form{
+    background-color: rgba(117, 128, 128, 0.664);
+    width: 25rem;
+   
+
+    border-radius: 12px;
+    display: flex;
+    
+    font-size: x-large;
+    flex-direction: column;
+    font-weight: 900;
+
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 17px;
+    
+    }
+
+    input[type="text"]{
+    border-radius: 12px;
+    margin: 7px;
+    padding: 7px;
+
+
+    }
+
+    input[type="password"]{
+    border-radius: 12px;
+    margin: 7px;
+    padding: 7px;
+    
+    
+
+    }
+
+
+
+
+.fox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 5%;
+}
+button{
+
+border-radius: 12px;
+height: 35px;
+width: 280px;
+
+
+}
+footer{
+    position: relative;
+top: 11%;
+
+}
+
+

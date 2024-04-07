@@ -1,0 +1,303 @@
+[
+    {
+        "id": "1",
+        "name": "Casita Purma",
+        "description": "APROVECHÁ PREVIAJE CON NOSOTROS!!! Casita Purma es una casita nueva dentro del casco histórico de Purmamarca.  Dos personas, living-comedor-cocina, baño y patio. Desde las ventanas se puede disfrutar del Cerro de los Siete Colores y del pintoresco pueblo Patrimonio de la Humanidad. A tres cuadras de la Plaza y a una del Paseo de los Colorados, Casita Purma es ideal para hacer base y disfrutar en familia, pareja o amigos del hermoso paisaje andino de la Quebrada de Humahuaca. Te esperamos!!!",
+        "image": [
+            "casaPurma1.jpg",
+            "casaPurma2.jpg",
+            "casaPurma3.jpg",
+            "casaPurma4.jpg"
+        ],
+        "price": "120000",
+        "personas": "2",
+        "include": [
+            "Cocina",
+            "Wi-fi",
+            "Agua caliente",
+            "Baño"
+        ],
+        "anfitrion": "Pablo",
+        "prov": "Jujuy",
+        "localidad": "Purmamarca"
+    },
+    {
+        "id": "2",
+        "name": "ECOCABAÑA 3",
+        "description": "ECOCABAÑA es un concepto de alojamiento rural y ecológico ubicado en Purmamarca con una de las mejores vistas panorámicas del Cerro de los 7 Colores, aquí tendrás un gran espacio para conectar con la naturaleza. Estamos muy cerca de todo, pudiendo recorrer prácticamente toda la ciudad a pie.Te esperamos para que disfrutes de una experiencia inolvidable.",
+        "image": [
+            "ecocabaña1.jpg",
+            "ecocabaña2.jpg",
+            "ecocabaña3.jpg",
+            "ecocabaña4.jpg"
+        ],
+        "price": "30000",
+        "personas": "1",
+        "include": [
+            "Cocina",
+            "Baño",
+            "Wi-fi",
+            "Agua caliente"
+        ],
+        "anfitrion": "Liliana",
+        "prov": "Jujuy",
+        "localidad": "Purmamarca"
+    },
+    {
+        "id": "3",
+        "name": "Casa de artista con senderos & arroyo",
+        "description": "No es una casa cualquiera. De madera de cipres acerrado ahi mismo. Luminosa, amplia, bien aislada para asegurar el mínimo consumo de energía. Decoración de sencilla elegancia acorde al lugar, cuadros de fotos de Florian von der Fecht enmarcados con madera reciclada. sin vecinos, rodeada de bosque, de senderos y acceso privado al arroyo Blanco que limita la propiedad. El murmullo del Arroyo Blanco se interrumpe por el canto del huet-huet.",
+        "image": [
+            "casaArtista1.jpg",
+            "casaArtista2.jpg",
+            "casaArtista3.jpg",
+            "casaArtista4.jpg"
+        ],
+        "price": "60000",
+        "personas": "2",
+        "include": [
+            "Cocina",
+            "Baño",
+            "Wi-fi",
+            "Agua caliente"
+        ],
+        "anfitrion": "Juan Perez",
+        "prov": "Rio Negro",
+        "localidad": "Bariloche"
+    },
+    {
+        "id": "4",
+        "name": "Un Chiringo entre el bosque y la montaña",
+        "description": "Cabaña de montaña, que consta de 1 ambiente en planta baja con cocina-comedor, equipado con heladera, anafe a gas, horno eléctrico, jarra eléctrica y vajilla para 4 personas. El baño ubicado en planta baja tiene ducha con mampara. En este ambiente hay un futón cama donde pueden dormir dos personas, y en la buhardilla que está alfombrada hay dos camas sommier individuales que pueden unir sus colchones y convertirse en cama matrimonial. Allí hay una cómoda con cajonera.",
+        "image": [
+            "casaUshuaia1.jpg",
+            "casaUshuaia2.jpg",
+            "casaUshuaia3.jpg",
+            "casaUshuaia4.jpg",
+            "casaUshuaia5.jpg",
+            "casaUshuaia6.jpg"
+        ],
+        "price": "30750",
+        "personas": "3",
+        "include": [
+            "Cocina",
+            "Wi-fi",
+            "Televisor",
+            "Estacionamiento",
+            "patio privado"
+        ],
+        "anfitrion": "Bruno",
+        "prov": "Tierra del Fuego",
+        "localidad": "Ushuaia"
+    },
+    {
+        "id": "5",
+        "name": "Departamento en Buesos Aires",
+        "description": "Espectacular apartamento de tres ambientes en Villa Crespo, muy bien conectado y cerca de Palermo.Torre con amenities y todas las comodidades de una casa: jardin, piscina, cancha de futbol, mucho verde y seguridad 24 hs. Espacios amplios, luminosos y equipados. Tiene escritorio de trabajo, habitación con cama enorme y un colchón super confortable. Lo mejor de todo: las vistas únicas y abiertas de la ciudad. De día y de noche, cada ventana es una postal. Todos los espacios tienen vista abierta.",
+        "image": [
+            "deptoBaires1.jpg",
+            "deptoBaires2.jpg",
+            "deptoBaires3.jpg",
+            "deptoBaires4.jpg",
+            "deptoBaires5.jpg",
+            "deptoBaires6.jpg"
+        ],
+        "price": "33750",
+        "personas": "3",
+        "include": [
+            "Cocina",
+            "Wi-fi",
+            "zona de trabajo",
+            "Estacionamiento",
+            "pileta de uso compartido",
+            "Televisor"
+        ],
+        "anfitrion": "Gabriela",
+        "prov": "Buenos Aires",
+        "localidad": "CABA"
+    },
+    {
+        "id": "6",
+        "name": "Departamento HOME - Vista Lago y Bosque",
+        "description": "Relájate en este increíble alojamiento en un entorno único y pacifico, rodeado de un bosque nativo, aves autóctonas y una hermosa vista al lago Nahuel Huapi. Este departamento moderno y acogedor se encuentra dentro de un barrio cerrado a menos de 5 km del centro de Bariloche, cercano a un centro comercial, restaurantes, cervecerías y playa publica. Posee salida directa a las dos avenidas mas importantes de Bariloche, que conectan la ciudad con los principales atractivos y con el centro de ski.",
+        "image": [
+            "deptoBariloche1.jpg",
+            "deptoBariloche2.jpg",
+            "deptoBariloche3.jpg",
+            "deptoBariloche4.jpg",
+            "deptoBariloche5.jpg",
+            "deptoBariloche6.jpg"
+        ],
+        "price": "56250",
+        "personas": "3",
+        "include": [
+            "vista a las montañas",
+            "vista al lago",
+            "Wi-fi",
+            "Cocina"
+        ],
+        "anfitrion": "Lucas",
+        "prov": "Rio Negro",
+        "localidad": "Bariloche"
+    },
+    {
+        "id": "7",
+        "name": "Vivienda en Mendoza - Vista a las montañas",
+        "description": "la tierra del malbec, que alberga al imponente cerro Aconcagua, se fortalece como el Olimpo para los enófilos de todo el orbe al formar parte de la prestigiosa red global de las Great Wine Capitals.",
+        "image": [
+            "mendoza1.jpg",
+            "mendoza2.jpg",
+            "mendoza3.jpg",
+            "mendoza4.jpg"
+        ],
+        "price": "55000",
+        "personas": "7",
+        "include": [
+            "vista a las montañas",
+            "vista al lago",
+            "Wi-fi",
+            "Cocina",
+            "patio privado"
+        ],
+        "anfitrion": "Martin",
+        "prov": "Mendoza",
+        "localidad": "Las Cuevas"
+    },
+    {
+        "id": "8",
+        "name": "Vieja casona en un pequeño pueblo",
+        "description": "A tan solo 25 kilómetros al oeste de la ciudad de Tucumán se encuentra, enclavada entre los cerros y la selva, la hermosa y pintoresca localidad de Villa Nougués.",
+        "image": [
+            "tucuman1.jpg",
+            "tucuman2.jpg",
+            "tucuman3.jpg",
+            "tucuman4.jpg"
+        ],
+        "price": "28000",
+        "personas": "3",
+        "include": [
+            "vista a las montañas",
+            "Televisor",
+            "Cocina",
+            "patio privado"
+        ],
+        "anfitrion": "Nicolas",
+        "prov": "Tucumán",
+        "localidad": "Villa Nougués"
+    },
+    {
+        "id": "9",
+        "name": "Hostería Villa del Lago ",
+        "description": " se encuentra en Villa Carlos Paz y ofrece salón, dos habitaciones y pileta",
+        "image": [
+            "villaCarlosPaz1.jpg",
+            "villaCarlosPaz2.jpg",
+            "villaCarlosPaz3.jpg",
+            "villaCarlosPaz4.jpg"
+        ],
+        "price": "28000",
+        "personas": "5",
+        "include": [
+            "Pileta",
+            "Televisor",
+            "Cocina",
+            "patio privado",
+            "Wi-fi"
+        ],
+        "anfitrion": "Mateo",
+        "prov": "Cordoba",
+        "localidad": "Villa Carlos Paz"
+    },
+    {
+        "id": "10",
+        "name": "Alojamiento Puerto Iguazu",
+        "description": "El alojamiento se encuentra en un lugar tranquilo rodeado de naturaleza, cerca de varios atractivos turisticos de la ciudad",
+        "image": [
+            "casaIguazu.jpg",
+            "casaIguazu2.jpg",
+            "casaIguazu3.jpg",
+            "casaIguazu4.jpg",
+            "casaIguazu5.jpg"
+        ],
+        "price": "27000",
+        "personas": "4",
+        "include": [
+            "Cocina",
+            "Wifi de 28 Mbps",
+            "Estacionamiento gratis en la propiedad",
+            "Televisión con Netflix",
+            "Patio trasero compartido",
+            "Heladera"
+        ],
+        "anfitrion": "Maria Elena",
+        "prov": "Misiones",
+        "localidad": "Puerto Iguazu"
+    },
+    {
+        "id": "11",
+        "name": "Hotel Mediterraneo",
+        "description": "Hotel centrico ubicado cerca de lugares turisticos",
+        "image": [
+            "hotelMediterraneo.jpg",
+            "hotelMediterraneo2.jpg",
+            "hotelMediterraneo3.jpg",
+            "hotelMediterraneo4.jpg"
+        ],
+        "price": "28500",
+        "personas": "4",
+        "include": [
+            "pileta",
+            "televisor",
+            "cocina",
+            "patio privado, wi-fi",
+            "Heladera"
+        ],
+        "anfitrion": "Yanina",
+        "prov": "Misiones",
+        "localidad": "Puerto Iguazu"
+    },
+    {
+        "id": "12",
+        "name": "Cabañas Rincon Santa Maria",
+        "description": "Cabañas con piscina con cerca perimetral de seguridad, iluminación nocturna en quincho y área de barbacoa",
+        "image": [
+            "departamentoIguazu.jpg",
+            "departamentoIguazu2.jpg",
+            "departamentoIguazu3.jpg",
+            "departamentoIguazu4.jpg"
+        ],
+        "price": "31500",
+        "personas": "8",
+        "include": [
+            "pileta",
+            "televisor",
+            "cocina",
+            "patio privado, wi-fi",
+            "Heladera",
+            "quincho"
+        ],
+        "anfitrion": "Manuel",
+        "prov": "Misiones",
+        "localidad": "Puerto Iguazu"
+    },
+    {
+        "name": "ya no se",
+        "price": "12347",
+        "prov": "Salta",
+        "localidad": "salta",
+        "personas": "4",
+        "description": "ya no se que le paso al codigo",
+        "anfitrion": "jorge",
+        "include": [
+            "Wi-fi",
+            "Agua caliente"
+        ],
+        "id": "13",
+        "image": [
+            "image-1697553662204.jpg",
+            "image-1697553662204.jpeg",
+            "image-1697553662204.jpeg",
+            "image-1697553662206.png"
+        ]
+    }
+]

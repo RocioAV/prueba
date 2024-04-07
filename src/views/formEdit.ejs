@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include ('./partials/head.ejs') %>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+    
+        <main class="mainform">
+            <section class="form">
+                <h2>¡Agrega un Hospedaje ya!</h2>
+                <form action="/products/edit/<%=alojamiento.id%>?_method=PUT" method="POST" class="formu">
+                    <label for="name">Nombre de su hospedaje:</label>
+                    <div class="input">
+                        <input type="text" id="name" name="name" placeholder="Ej: cabañas soñadas" value="<%=alojamiento.name%>" class="form-input">
+                    </div>
+                   
+                    <label for="price">Precio por noche:</label>
+                    <div class="input">
+                    <input type="text" id="price" name="price" placeholder="Ej: 200" value="<%=alojamiento.price%>" class="form-input">
+                    </div>
+                    <label for="prov">Provincia</label>
+                    <div class="input">
+                        <select name="prov" value="<%=alojamiento.prov%>">
+                            <option value="BuenosAires">Buenos Aires</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value=Cordoba">Córdoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Rios">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquen">Neuquén</option>
+                            <option value="Rio Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago Del Estero">Santiago del Estero</option>
+                            <option value="Tierra Del Fuego">Tierra del Fuego</option>
+                          </select>
+                    </div>
+
+                    <label for="localidad">Localidad:</label>
+                    <div class="input">
+                    <input type="text" id="localidad" name="localidad" placeholder="Ej: San Salvador de Jujuy" value="<%=alojamiento.localidad%>" class="form-input">
+                    </div>
+                    
+                    <label for="personas">Cantidad maxima de personas:</label>
+                    <div class="input">
+                    <input type="text" id="personas" name="personas" placeholder="Ej: 1" value="<%=alojamiento.personas%>" class="form-input">
+                    </div>
+                
+                    <label for="description">Descipción:</label>
+                    <div class="input">
+                    <textarea name="description" id="description" class="form-input" value="<%=alojamiento.description%>" ></textarea>
+                    </div>
+                    
+                    <label for="anfitrion">Nombre de la persona a cargo:</label>
+                    <div class="input">
+                    <input type="text" id="anfitrion" name="anfitrion" placeholder="Ej: Veronica Solis" value="<%=alojamiento.anfitrion%>" class="form-input">
+                    </div>
+                    
+                    <label for="include">Que incluye:</label>
+                    <div class="check">
+                        <div>
+                            <input type="checkbox" name="include" value="Cocina"> <span>Cocina</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Wi-fi"> <span>Wi-fi</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Agua caliente"> <span>Agua caliente</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Baño"> <span>Baño individual</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Televisor"> <span>Televisor</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Estacionamiento"> <span>Estacionmiento</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="include" value="Pileta"> <span>Pileta</span>
+                        </div>
+                    
+                    </div>
+                    
+
+                    <label for="image">Agregar imagen</label>
+                    <div class="input">
+                    <input type="file" name="image" id="image" accept=".jpg, .png, .jpeg">
+                    </div>
+                   
+
+                    <div>
+                    <button type="submit" class="buy-now-button">Guardar Hospedaje</button>
+                    </div>
+
+
+                </form>
+            </section>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        </main>
+        <%- include('./partials/footer.ejs')%>
+</body>
+
+</html>
